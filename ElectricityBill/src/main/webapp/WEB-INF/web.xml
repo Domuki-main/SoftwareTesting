@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>EBController</servlet-name>
+		<display-name>EBController</display-name>
+		<description></description>
+		<servlet-class>com.sse3305.EBController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EBController</servlet-name>
+		<url-pattern>/EBController</url-pattern>
+	</servlet-mapping>
+</web-app>
